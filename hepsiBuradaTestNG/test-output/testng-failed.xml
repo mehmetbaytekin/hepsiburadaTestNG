@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [HepsiBurada]" parallel="tests">
+  <parameter name="password" value="Test3636Mb"/>
+  <parameter name="environment" value="https://www.hepsiburada.com/"/>
+  <parameter name="myBrowser" value="chrome"/>
+  <parameter name="searchValue" value="honor"/>
+  <parameter name="username" value="test3636.test363636@gmail.com"/>
+  <test thread-count="4" name="Urun Yorum(failed)" parallel="tests">
+    <classes>
+      <class name="testSuites.hepsiBuradaSuite">
+        <methods>
+          <include name="UrunYorumTest" invocation-numbers="0 0 0 0 0"/>
+          <include name="initDriver"/>
+          <include name="dbConnection"/>
+          <include name="initGenericMethods"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testSuites.hepsiBuradaSuite -->
+    </classes>
+  </test> <!-- Urun Yorum(failed) -->
+</suite> <!-- Failed suite [HepsiBurada] -->

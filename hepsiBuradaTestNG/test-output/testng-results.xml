@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[UrunYorumTest isimli Test Baslatiliyor]]>
+    </line>
+    <line>
+      <![CDATA[UrunYorumTest isimli Test Basarili]]>
+    </line>
+  </reporter-output>
+  <suite name="HepsiBurada" duration-ms="53862" started-at="2020-11-29T18:53:13 EET" finished-at="2020-11-29T18:54:07 EET">
+    <groups>
+    </groups>
+    <test name="Urun Yorum" duration-ms="53862" started-at="2020-11-29T18:53:13 EET" finished-at="2020-11-29T18:54:07 EET">
+      <class name="testSuites.hepsiBuradaSuite">
+        <test-method status="PASS" signature="dbConnection(java.lang.String)[pri:0, instance:testSuites.hepsiBuradaSuite@2781e022]" name="dbConnection" is-config="true" duration-ms="26" started-at="2020-11-29T18:53:13 EET" finished-at="2020-11-29T18:53:13 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.hepsiburada.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbConnection -->
+        <test-method status="PASS" signature="initDriver(java.lang.String, java.lang.String)[pri:0, instance:testSuites.hepsiBuradaSuite@2781e022]" name="initDriver" is-config="true" duration-ms="6740" started-at="2020-11-29T18:53:13 EET" finished-at="2020-11-29T18:53:20 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.hepsiburada.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="initGenericMethods(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSuites.hepsiBuradaSuite@2781e022]" name="initGenericMethods" is-config="true" duration-ms="1" started-at="2020-11-29T18:53:20 EET" finished-at="2020-11-29T18:53:20 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.hepsiburada.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test3636.test363636@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test3636Mb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initGenericMethods -->
+        <test-method status="PASS" signature="UrunYorumTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSuites.hepsiBuradaSuite@2781e022]" name="UrunYorumTest" duration-ms="46228" started-at="2020-11-29T18:53:20 EET" finished-at="2020-11-29T18:54:06 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test3636.test363636@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test3636Mb]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[iphone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[UrunYorumTest isimli Test Baslatiliyor]]>
+            </line>
+            <line>
+              <![CDATA[UrunYorumTest isimli Test Basarili]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- UrunYorumTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testSuites.hepsiBuradaSuite@2781e022]" name="closeBrowser" is-config="true" duration-ms="871" started-at="2020-11-29T18:54:06 EET" finished-at="2020-11-29T18:54:07 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testSuites.hepsiBuradaSuite -->
+    </test> <!-- Urun Yorum -->
+  </suite> <!-- HepsiBurada -->
+</testng-results>
